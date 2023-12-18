@@ -1,0 +1,1 @@
+ssh -i "Tavares.pem" bitnami@52.86.118.101
