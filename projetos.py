@@ -80,4 +80,4 @@ class Votar(Resource):
         r_votar = cursor_votar.execute("update projetos set votos = votos + 1 where project_id = ?", (project_id,))
         connection.commit()
         connection.close()
-        return {"message": "Voto computado, obrigado"}
+        return {"message": "Voto computado, obrigado!"}
